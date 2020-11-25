@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1606265376481" stop="1606265436108" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1606265376490" stop="1606265436104" status="broken">
+      <name>relaxtheback</name>
+      <failure>
+        <message>Waited for 30 secs but text 'Shoppping' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/relaxtheback/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/relaxtheback/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/relaxtheback/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/relaxtheback/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1606265378069" stop="1606265379695" status="passed">
+          <name>am on url "https://relaxtheback•com/"</name>
+        </step>
+        <step start="1606265379696" stop="1606265380175" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1606265380175" stop="1606265380671" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1606265380671" stop="1606265383117" status="passed">
+          <name>wait for text "Maybe",30</name>
+        </step>
+        <step start="1606265383117" stop="1606265383202" status="passed">
+          <name>click {"css":"body"}</name>
+        </step>
+        <step start="1606265383202" stop="1606265384057" status="passed">
+          <name>am on page "/collections/recliners"</name>
+        </step>
+        <step start="1606265384057" stop="1606265384993" status="passed">
+          <name>wait for text "recliners",30</name>
+        </step>
+        <step start="1606265384996" stop="1606265385905" status="passed">
+          <name>see "recliners"</name>
+        </step>
+        <step start="1606265385905" stop="1606265386038" status="passed">
+          <name>click {"css":"div•toolbar-menu:nth-child(2) &gt; div:nth-child(2) &gt; select:nth-child(1)"}</name>
+        </step>
+        <step start="1606265386038" stop="1606265389039" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1606265389039" stop="1606265389448" status="passed">
+          <name>click {"css":"div•toolbar-menu:nth-child(2) &gt; div:nth-child(2) &gt; select:nth-child(1) &gt; option:nth-child(4)"}</name>
+        </step>
+        <step start="1606265389448" stop="1606265394452" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606265394452" stop="1606265394836" status="passed">
+          <name>click {"css":"select•ng-pristine"}</name>
+        </step>
+        <step start="1606265394836" stop="1606265395839" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606265395839" stop="1606265396202" status="passed">
+          <name>click {"css":"select•ng-pristine &gt; option:nth-child(1)"}</name>
+        </step>
+        <step start="1606265396203" stop="1606265401206" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606265401207" stop="1606265403130" status="passed">
+          <name>am on page "/products/zerog-5-0-massage-chair"</name>
+        </step>
+        <step start="1606265403131" stop="1606265403443" status="passed">
+          <name>wait for text "Chair",30</name>
+        </step>
+        <step start="1606265403443" stop="1606265404067" status="passed">
+          <name>see "Chair"</name>
+        </step>
+        <step start="1606265404068" stop="1606265404613" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1606265404614" stop="1606265404858" status="passed">
+          <name>click {"css":"#mwAddToCart &gt; svg:nth-child(2)"}</name>
+        </step>
+        <step start="1606265404858" stop="1606265435000" status="failed">
+          <name>wait for text "Shoppping",30</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="05c257059adca89b2706a52e8759cb1a2275e60f-attachment.png" type="image/png"/>
+        <attachment title="html" source="4bd3e9a889fce712413656f824f148532b2f525f-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="relaxtheback"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

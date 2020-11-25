@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1606328232691" stop="1606328278106" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1606328232701" stop="1606328278103" status="broken">
+      <name>relaxtheback</name>
+      <failure>
+        <message>Waited for 30 secs but text 'details' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/relaxtheback/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/relaxtheback/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/relaxtheback/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/relaxtheback/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1606328234986" stop="1606328236919" status="passed">
+          <name>am on url "https://relaxtheback•com/"</name>
+        </step>
+        <step start="1606328236920" stop="1606328237914" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1606328237914" stop="1606328238379" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1606328238379" stop="1606328240511" status="passed">
+          <name>am on page "/account/login/"</name>
+        </step>
+        <step start="1606328240511" stop="1606328240763" status="passed">
+          <name>wait for text "password",30</name>
+        </step>
+        <step start="1606328240763" stop="1606328241032" status="passed">
+          <name>see "password"</name>
+        </step>
+        <step start="1606328241032" stop="1606328241397" status="passed">
+          <name>fill field {"id":"customer_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1606328241397" stop="1606328242400" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606328242400" stop="1606328242621" status="passed">
+          <name>fill field {"id":"customer_password"},"@Jwjw5050"</name>
+        </step>
+        <step start="1606328242621" stop="1606328243625" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606328243625" stop="1606328246219" status="passed">
+          <name>click {"css":"input•btn:nth-child(8)"}</name>
+        </step>
+        <step start="1606328246219" stop="1606328276625" status="failed">
+          <name>wait for text "details",30</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="b2a2a19a23a05d90c42760cb3dafcadc72f162ed-attachment.png" type="image/png"/>
+        <attachment title="html" source="0a0a0088ec2a704cdcab892ac6269098188f86db-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="relaxtheback"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

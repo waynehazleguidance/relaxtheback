@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1606265466844" stop="1606265499096" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1606265466853" stop="1606265499090" status="passed">
+      <name>relaxtheback</name>
+      <steps>
+        <step start="1606265468840" stop="1606265470605" status="passed">
+          <name>am on url "https://relaxtheback•com/"</name>
+        </step>
+        <step start="1606265470606" stop="1606265471087" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1606265471087" stop="1606265471394" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1606265471394" stop="1606265474196" status="passed">
+          <name>wait for text "Maybe",30</name>
+        </step>
+        <step start="1606265474196" stop="1606265474274" status="passed">
+          <name>click {"css":"body"}</name>
+        </step>
+        <step start="1606265474274" stop="1606265475628" status="passed">
+          <name>am on page "/collections/recliners"</name>
+        </step>
+        <step start="1606265475628" stop="1606265476550" status="passed">
+          <name>wait for text "recliners",30</name>
+        </step>
+        <step start="1606265476552" stop="1606265477595" status="passed">
+          <name>see "recliners"</name>
+        </step>
+        <step start="1606265477596" stop="1606265477690" status="passed">
+          <name>click {"css":"div•toolbar-menu:nth-child(2) &gt; div:nth-child(2) &gt; select:nth-child(1)"}</name>
+        </step>
+        <step start="1606265477690" stop="1606265480693" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1606265480693" stop="1606265481097" status="passed">
+          <name>click {"css":"div•toolbar-menu:nth-child(2) &gt; div:nth-child(2) &gt; select:nth-child(1) &gt; option:nth-child(4)"}</name>
+        </step>
+        <step start="1606265481098" stop="1606265486100" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606265486100" stop="1606265486484" status="passed">
+          <name>click {"css":"select•ng-pristine"}</name>
+        </step>
+        <step start="1606265486484" stop="1606265487486" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606265487486" stop="1606265487866" status="passed">
+          <name>click {"css":"select•ng-pristine &gt; option:nth-child(1)"}</name>
+        </step>
+        <step start="1606265487866" stop="1606265492870" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606265492871" stop="1606265494637" status="passed">
+          <name>am on page "/products/zerog-5-0-massage-chair"</name>
+        </step>
+        <step start="1606265494638" stop="1606265495005" status="passed">
+          <name>wait for text "Chair",30</name>
+        </step>
+        <step start="1606265495005" stop="1606265495587" status="passed">
+          <name>see "Chair"</name>
+        </step>
+        <step start="1606265495587" stop="1606265496084" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1606265496084" stop="1606265496325" status="passed">
+          <name>click {"css":"#mwAddToCart &gt; svg:nth-child(2)"}</name>
+        </step>
+        <step start="1606265496325" stop="1606265498534" status="passed">
+          <name>wait for text "Shopping",30</name>
+        </step>
+        <step start="1606265498534" stop="1606265499022" status="passed">
+          <name>see "Shopping"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="relaxtheback"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

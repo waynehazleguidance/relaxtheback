@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1606265039262" stop="1606265082117" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1606265039265" stop="1606265082114" status="failed">
+      <name>relaxtheback</name>
+      <failure>
+        <message>CSS or XPath element with css '.ng-dirty &gt; option:nth-child(4)' was not found.</message>
+        <stack-trace>#0 /Users/whazle/Desktop/relaxtheback/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(1036): Codeception\Module\WebDriver-&gt;matchFirstOrFail(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#1 /Users/whazle/Desktop/relaxtheback/vendor/codeception/module-webdriver/src/Codeception/Module/WebDriver.php(995): Codeception\Module\WebDriver-&gt;_findClickable(Object(Facebook\WebDriver\Remote\RemoteWebDriver), Array)
+#2 /Users/whazle/Desktop/relaxtheback/src/Actor/Helper/Common.php(55): Codeception\Module\WebDriver-&gt;click(Array, NULL)
+#3 [internal function]: Guidance\Tests\Project\Actor\Helper\Common-&gt;click(Array)
+#4 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)
+#5 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\Step-&gt;run(Object(Codeception\Lib\ModuleContainer))
+#6 /Users/whazle/Desktop/relaxtheback/src/_generated/ActorActions.php(1112): Codeception\Scenario-&gt;runStep(Object(Codeception\Step\Action))
+#7 /Users/whazle/Desktop/relaxtheback/src/Test/Project/DemoCest.php(86): Guidance\Tests\Project\Actor-&gt;click(Array)
+#8 [internal function]: Guidance\Tests\Project\Test\Project\DemoCest-&gt;relaxtheback(Object(Guidance\Tests\Project\Actor))
+#9 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod-&gt;invokeArgs(Object(Guidance\Tests\Project\Test\Project\DemoCest), Array)
+#10 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\Lib\Di-&gt;injectDependencies(Object(Guidance\Tests\Project\Test\Project\DemoCest), 'relaxtheback', Array)
+#11 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\Test\Cest-&gt;invoke('relaxtheback', Array)
+#12 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\Test\Cest-&gt;executeTestMethod(Object(Guidance\Tests\Project\Actor))
+#13 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\Test\Cest-&gt;test()
+#14 /Users/whazle/Desktop/relaxtheback/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#15 /Users/whazle/Desktop/relaxtheback/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#16 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#17 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#18 /Users/whazle/Desktop/relaxtheback/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#19 /Users/whazle/Desktop/relaxtheback/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#20 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1606265040662" stop="1606265042249" status="passed">
+          <name>am on url "https://relaxtheback•com/"</name>
+        </step>
+        <step start="1606265042249" stop="1606265042737" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1606265042737" stop="1606265043149" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1606265043149" stop="1606265046025" status="passed">
+          <name>wait for text "Maybe",30</name>
+        </step>
+        <step start="1606265046026" stop="1606265046173" status="passed">
+          <name>click {"css":"body"}</name>
+        </step>
+        <step start="1606265046174" stop="1606265047226" status="passed">
+          <name>am on page "/collections/recliners"</name>
+        </step>
+        <step start="1606265047226" stop="1606265048443" status="passed">
+          <name>wait for text "recliners",30</name>
+        </step>
+        <step start="1606265048444" stop="1606265049489" status="passed">
+          <name>see "recliners"</name>
+        </step>
+        <step start="1606265049489" stop="1606265080843" status="failed">
+          <name>click {"css":"•ng-dirty &gt; option:nth-child(4)"}</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="cf1629adea59d6971a1ddde7d81f7459b13f32cf-attachment.png" type="image/png"/>
+        <attachment title="html" source="e9007770cb254e53eddae4909fb3fbf4d16caac8-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="relaxtheback"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

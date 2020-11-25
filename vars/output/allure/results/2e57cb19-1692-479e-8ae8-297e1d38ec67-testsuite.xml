@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1606328540507" stop="1606328578541" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1606328540516" stop="1606328578534" status="passed">
+      <name>relaxtheback</name>
+      <steps>
+        <step start="1606328542835" stop="1606328544920" status="passed">
+          <name>am on url "https://relaxtheback•com/"</name>
+        </step>
+        <step start="1606328544920" stop="1606328545535" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1606328545536" stop="1606328546146" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1606328546146" stop="1606328548222" status="passed">
+          <name>am on page "/account/login/"</name>
+        </step>
+        <step start="1606328548222" stop="1606328548579" status="passed">
+          <name>wait for text "password",30</name>
+        </step>
+        <step start="1606328548579" stop="1606328548859" status="passed">
+          <name>see "password"</name>
+        </step>
+        <step start="1606328548859" stop="1606328549159" status="passed">
+          <name>fill field {"id":"customer_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1606328549159" stop="1606328550159" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606328550159" stop="1606328550291" status="passed">
+          <name>fill field {"id":"customer_password"},"@Jwjw5050"</name>
+        </step>
+        <step start="1606328550291" stop="1606328551295" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606328551295" stop="1606328553680" status="passed">
+          <name>click {"css":"input•btn:nth-child(8)"}</name>
+        </step>
+        <step start="1606328553680" stop="1606328554077" status="passed">
+          <name>wait for text "LOGOUT",30</name>
+        </step>
+        <step start="1606328554077" stop="1606328554718" status="passed">
+          <name>see "LOGOUT"</name>
+        </step>
+        <step start="1606328554718" stop="1606328556203" status="passed">
+          <name>am on page "/collections/recliners"</name>
+        </step>
+        <step start="1606328556203" stop="1606328556766" status="passed">
+          <name>wait for text "recliners",30</name>
+        </step>
+        <step start="1606328556766" stop="1606328558091" status="passed">
+          <name>see "recliners"</name>
+        </step>
+        <step start="1606328558091" stop="1606328558367" status="passed">
+          <name>click {"css":"div•toolbar-menu:nth-child(2) &gt; div:nth-child(2) &gt; select:nth-child(1)"}</name>
+        </step>
+        <step start="1606328558367" stop="1606328561371" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1606328561371" stop="1606328561520" status="passed">
+          <name>click {"css":"div•toolbar-menu:nth-child(2) &gt; div:nth-child(2) &gt; select:nth-child(1) &gt; option:nth-child(4)"}</name>
+        </step>
+        <step start="1606328561521" stop="1606328566522" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606328566522" stop="1606328566635" status="passed">
+          <name>click {"css":"select•ng-pristine"}</name>
+        </step>
+        <step start="1606328566635" stop="1606328567639" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606328567639" stop="1606328568017" status="passed">
+          <name>click {"css":"select•ng-pristine &gt; option:nth-child(1)"}</name>
+        </step>
+        <step start="1606328568017" stop="1606328571021" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1606328571021" stop="1606328572848" status="passed">
+          <name>am on page "/products/zerog-5-0-massage-chair"</name>
+        </step>
+        <step start="1606328572848" stop="1606328573426" status="passed">
+          <name>wait for text "Chair",30</name>
+        </step>
+        <step start="1606328573426" stop="1606328574534" status="passed">
+          <name>see "Chair"</name>
+        </step>
+        <step start="1606328574534" stop="1606328575065" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1606328575066" stop="1606328575676" status="passed">
+          <name>click {"css":"#mwAddToCart &gt; svg:nth-child(2)"}</name>
+        </step>
+        <step start="1606328575677" stop="1606328577998" status="passed">
+          <name>wait for text "Shopping",30</name>
+        </step>
+        <step start="1606328577998" stop="1606328578477" status="passed">
+          <name>see "Shopping"</name>
+        </step>
+      </steps>
+      <labels>
+        <label name="testMethod" value="relaxtheback"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

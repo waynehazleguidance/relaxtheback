@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1606328424297" stop="1606328498049" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1606328424307" stop="1606328498043" status="broken">
+      <name>relaxtheback</name>
+      <failure>
+        <message>Waited for 30 secs but text 'shopping cart' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/relaxtheback/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/relaxtheback/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/relaxtheback/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/relaxtheback/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1606328426272" stop="1606328429875" status="passed">
+          <name>am on url "https://relaxtheback•com/"</name>
+        </step>
+        <step start="1606328429876" stop="1606328430204" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1606328430204" stop="1606328430590" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1606328430590" stop="1606328434119" status="passed">
+          <name>am on page "/account/login/"</name>
+        </step>
+        <step start="1606328434119" stop="1606328434440" status="passed">
+          <name>wait for text "password",30</name>
+        </step>
+        <step start="1606328434440" stop="1606328434691" status="passed">
+          <name>see "password"</name>
+        </step>
+        <step start="1606328434691" stop="1606328434967" status="passed">
+          <name>fill field {"id":"customer_email"},"wayne•hazle@guidance•com"</name>
+        </step>
+        <step start="1606328434968" stop="1606328435971" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606328435971" stop="1606328436290" status="passed">
+          <name>fill field {"id":"customer_password"},"@Jwjw5050"</name>
+        </step>
+        <step start="1606328436290" stop="1606328437291" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606328437291" stop="1606328440092" status="passed">
+          <name>click {"css":"input•btn:nth-child(8)"}</name>
+        </step>
+        <step start="1606328440092" stop="1606328440509" status="passed">
+          <name>wait for text "LOGOUT",30</name>
+        </step>
+        <step start="1606328440509" stop="1606328441172" status="passed">
+          <name>see "LOGOUT"</name>
+        </step>
+        <step start="1606328441172" stop="1606328443087" status="passed">
+          <name>am on page "/collections/recliners"</name>
+        </step>
+        <step start="1606328443087" stop="1606328443731" status="passed">
+          <name>wait for text "recliners",30</name>
+        </step>
+        <step start="1606328443731" stop="1606328445421" status="passed">
+          <name>see "recliners"</name>
+        </step>
+        <step start="1606328445421" stop="1606328445634" status="passed">
+          <name>click {"css":"div•toolbar-menu:nth-child(2) &gt; div:nth-child(2) &gt; select:nth-child(1)"}</name>
+        </step>
+        <step start="1606328445635" stop="1606328448636" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1606328448636" stop="1606328448802" status="passed">
+          <name>click {"css":"div•toolbar-menu:nth-child(2) &gt; div:nth-child(2) &gt; select:nth-child(1) &gt; option:nth-child(4)"}</name>
+        </step>
+        <step start="1606328448802" stop="1606328453805" status="passed">
+          <name>wait 5</name>
+        </step>
+        <step start="1606328453805" stop="1606328453908" status="passed">
+          <name>click {"css":"select•ng-pristine"}</name>
+        </step>
+        <step start="1606328453908" stop="1606328454912" status="passed">
+          <name>wait 1</name>
+        </step>
+        <step start="1606328454912" stop="1606328455355" status="passed">
+          <name>click {"css":"select•ng-pristine &gt; option:nth-child(1)"}</name>
+        </step>
+        <step start="1606328455355" stop="1606328458356" status="passed">
+          <name>wait 3</name>
+        </step>
+        <step start="1606328458356" stop="1606328460280" status="passed">
+          <name>am on page "/products/zerog-5-0-massage-chair"</name>
+        </step>
+        <step start="1606328460280" stop="1606328460743" status="passed">
+          <name>wait for text "Chair",30</name>
+        </step>
+        <step start="1606328460743" stop="1606328461580" status="passed">
+          <name>see "Chair"</name>
+        </step>
+        <step start="1606328461580" stop="1606328462479" status="passed">
+          <name>see "Add to Cart"</name>
+        </step>
+        <step start="1606328462479" stop="1606328466276" status="passed">
+          <name>click {"css":"#mwAddToCart &gt; svg:nth-child(2)"}</name>
+        </step>
+        <step start="1606328466277" stop="1606328496507" status="failed">
+          <name>wait for text "shopping cart",30</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="a911921c5f8742b65877f3c3971118c255d0faeb-attachment.png" type="image/png"/>
+        <attachment title="html" source="4d1fd637d307dae2ce60881c9ea4e470e9674e96-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="relaxtheback"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

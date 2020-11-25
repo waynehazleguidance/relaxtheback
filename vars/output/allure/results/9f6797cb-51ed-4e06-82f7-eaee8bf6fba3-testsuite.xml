@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1606328124866" stop="1606328166484" version="1.4.0">
+  <name>Guidance\Tests\Project\.Test/Project</name>
+  <test-cases>
+    <test-case start="1606328124878" stop="1606328166481" status="broken">
+      <name>relaxtheback</name>
+      <failure>
+        <message>Waited for 30 secs but text 'login' still not found</message>
+        <stack-trace>#0 /Users/whazle/Desktop/relaxtheback/vendor/phpunit/phpunit/src/Framework/TestSuite.php(665): Codeception\Test\Test-&gt;run(Object(PHPUnit\Framework\TestResult))
+#1 /Users/whazle/Desktop/relaxtheback/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\Framework\TestSuite-&gt;run(Object(PHPUnit\Framework\TestResult))
+#2 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\PHPUnit\Runner-&gt;doEnhancedRun(Object(Codeception\Suite), Object(PHPUnit\Framework\TestResult), Array)
+#3 /Users/whazle/Desktop/relaxtheback/vendor/codeception/codeception/src/Codeception/Codecept.php(196): Codeception\SuiteManager-&gt;run(Object(Codeception\PHPUnit\Runner), Object(PHPUnit\Framework\TestResult), Array)
+#4 /Users/whazle/Desktop/relaxtheback/vendor/guidance/tests_base/src/Codeception/Launcher.php(93): Codeception\Codecept-&gt;runSuite(Array, 'Test/Project', 'DemoCest.php')
+#5 /Users/whazle/Desktop/relaxtheback/bin/dev(62): Guidance\Tests\Base\Codeception\Launcher-&gt;launch()
+#6 {main}</stack-trace>
+      </failure>
+      <steps>
+        <step start="1606328127620" stop="1606328131291" status="passed">
+          <name>am on url "https://relaxtheback•com/"</name>
+        </step>
+        <step start="1606328131292" stop="1606328131712" status="passed">
+          <name>maximize window </name>
+        </step>
+        <step start="1606328131712" stop="1606328132084" status="passed">
+          <name>wait for text "store",30</name>
+        </step>
+        <step start="1606328132084" stop="1606328134710" status="passed">
+          <name>am on page "/account/login/"</name>
+        </step>
+        <step start="1606328134710" stop="1606328164855" status="failed">
+          <name>wait for text "login",30</name>
+        </step>
+      </steps>
+      <attachments>
+        <attachment title="png" source="776aad9419bd3917dddde7d24adfea230000604c-attachment.png" type="image/png"/>
+        <attachment title="html" source="fb6b1b9398f94f51de2343488e39a7e9dea1b654-attachment.html" type="text/html"/>
+      </attachments>
+      <labels>
+        <label name="testMethod" value="relaxtheback"/>
+        <label name="testClass" value="Guidance\Tests\Project\Test\Project\DemoCest"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</alr:test-suite>
